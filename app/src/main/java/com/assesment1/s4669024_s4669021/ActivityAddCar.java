@@ -1,5 +1,6 @@
 package com.assesment1.s4669024_s4669021;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +13,7 @@ import com.assesment1.assessment_s4669024_s4669021.R;
 
 public class ActivityAddCar extends AppCompatActivity implements View.OnClickListener{
 
-    Button addCar2Btn;
+    Button addCar2Btn, backBtn;
     EditText addBrandSpace,addModelSpace,addPriceSpace;
     DBHelper dbHelper;
     protected void onCreate(Bundle savedInstanceState){
@@ -22,7 +23,7 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         dbHelper=new DBHelper(this);
 
         addCar2Btn= findViewById(R.id.addcar2btn);
-
+        backBtn= findViewById(R.id.backBtn);
         addBrandSpace=findViewById(R.id.addBrandSpace);
         addModelSpace=findViewById(R.id.addModelSpace);
         addPriceSpace=findViewById(R.id.addPriceSpace);
@@ -35,6 +36,9 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         int id=view.getId();
         if(id==R.id.addcar2btn){
             insertData();
+        }
+        if(id==R.id.backBtn){
+            goToHomePage();
         }
     }
 
@@ -51,5 +55,10 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         else{
             Toast.makeText(ActivityAddCar.this,"Please insert the relevant data",Toast.LENGTH_LONG).show();
         }
+    }
+
+    private void goToHomePage(){
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
     }
 }

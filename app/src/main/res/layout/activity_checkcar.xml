@@ -38,18 +38,6 @@
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
 
-    <TextView
-        android:id="@+id/checkBrandTxt"
-        android:layout_width="205dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="371dp"
-        android:text="@string/brandtxt"
-        android:textColor="#1B5E20"
-        android:textSize="15sp"
-        tools:ignore="VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkBrandEx"
@@ -57,27 +45,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="53dp"
-        android:layout_marginBottom="360dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="397dp"
         android:background="@color/white"
         android:inputType="text"
         android:minHeight="48dp"
         android:textSize="15sp"
         tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
-
     <TextView
-        android:id="@+id/carModelTxt"
+        android:id="@+id/checkBrandTxt"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="301dp"
-        android:text="@string/modeltxt"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="408dp"
+        android:text="@string/brandtxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
-        tools:ignore="TextSizeCheck,VisualLintOverlap" />
+        tools:ignore="VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkModelEx"
@@ -85,8 +72,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="53dp"
-        android:layout_marginBottom="288dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="325dp"
         android:background="@color/white"
         android:inputType="text"
         android:minHeight="48dp"
@@ -99,12 +86,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="116dp"
-        android:layout_marginBottom="213dp"
-        android:background="#0E88BF"
-        android:backgroundTint="#0E88BF"
-        android:text="@string/checkpricebtn"
-        android:textColor="#000000" />
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="250dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#46b4e7"
+        android:text="@string/checkpricebtn" />
 
     <TextView
         android:id="@+id/carpricetext"
@@ -112,8 +98,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="141dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="178dp"
         android:text="@string/pricetxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
@@ -125,13 +111,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="53dp"
-        android:layout_marginBottom="129dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="166dp"
         android:background="@color/white"
         android:inputType="text"
         android:minHeight="48dp"
         android:textSize="15sp"
         tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/carModelTxt"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="338dp"
+        android:text="@string/modeltxt"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
 
 </RelativeLayout>

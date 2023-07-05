@@ -1,4 +1,4 @@
-package com.assesment1.assessment_s4669024_s4669021;
+package com.assesment1.s4669024_s4669021;
 
 import android.content.Context;
 

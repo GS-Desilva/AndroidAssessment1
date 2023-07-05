@@ -18,33 +18,33 @@
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
 
-    <Button
-        android:id="@+id/addCarBtn"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="357dp"
-        android:backgroundTint="#46b4e7"
-        android:text="@string/addCarBtn"
-        android:textColor="@color/black" />
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="108dp"
+        android:layout_height="276dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@id/bgCar"
+        android:layout_marginStart="130dp"
+        >
 
-    <Button
-        android:id="@+id/checkCarBtn"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="269dp"
-        android:backgroundTint="#46b4e7"
-        android:text="@string/checkCarBtn"
-        android:textColor="@color/black"
-        tools:ignore="RelativeOverlap,TextSizeCheck" />
+        <Button
+            android:id="@+id/addCarBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#46b4e7"
+            android:text="@string/addCarBtn"
+            android:textColor="@color/black" />
 
+        <Button
+            android:id="@+id/checkCarBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#46b4e7"
+            android:text="@string/checkCarBtn"
+            android:textColor="@color/black"
+            tools:ignore="RelativeOverlap,TextSizeCheck" />
+    </LinearLayout>
 
 </RelativeLayout>

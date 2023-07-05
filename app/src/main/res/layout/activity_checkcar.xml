@@ -23,10 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:text="@string/checkcartext"
         android:textAlignment="center"
         android:textSize="15sp"
-        android:contentDescription="Check Car Activity title"/>
+        android:text="@string/checkcartitle" />
 
 
     <ImageView
@@ -71,7 +70,7 @@
         android:layout_marginBottom="292dp"
         android:textSize="15dp"
         tools:ignore="TextSizeCheck"
-        android:text="@string/check_model_label" />
+        android:text="@string/modeltxt" />
 
 
     <EditText
@@ -96,7 +95,7 @@
         android:layout_marginBottom="188dp"
         android:background="#0E88BF"
         android:backgroundTint="#0E88BF"
-        android:text="CHECK PRICE" />
+        android:text="@string/checkpricebtn"/>
 
     <TextView
         android:id="@+id/carpricetext"
@@ -108,7 +107,7 @@
         android:layout_marginBottom="131dp"
         android:textSize="15sp"
         tools:ignore="TextSizeCheck"
-        android:text="@string/car_price_label"/>
+        android:text="@string/pricetxt"/>
 
     <EditText
         android:id="@+id/checkPriceEx"

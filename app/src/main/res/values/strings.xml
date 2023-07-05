@@ -12,6 +12,7 @@
     <string name="modelTxt">Car Model</string>
     <string name="priceTxt">Car Price</string>
     <string name="checkCarTitle">Check Car</string>
+    <string name="backBtn">Back</string>
 
 
 

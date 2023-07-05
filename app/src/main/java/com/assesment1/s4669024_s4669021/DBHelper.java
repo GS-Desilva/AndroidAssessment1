@@ -10,10 +10,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
         public static final String DATABASE_NAME = "garage.db";
         public static final String TABLE_NAME = "car";
-        public static final String CAR_ID = "ID";
-        public static final String CAR_BRAND = "BRAND";
-        public static final String CAR_MODEL = "MODEL";
-        public static final String CAR_PRICE = "PRICE";
+        public static final String CAR_ID = "id";
+        public static final String CAR_BRAND = "brand";
+        public static final String CAR_MODEL = "model";
+        public static final String CAR_PRICE = "price";
 
 
         public DBHelper(Context context) {

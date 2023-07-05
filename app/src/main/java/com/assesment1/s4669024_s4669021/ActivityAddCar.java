@@ -28,5 +28,8 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view){
         int id=view.getId();
+        if(id==R.id.addcar2btn){
+            insertData();
+        }
     }
 }

@@ -65,7 +65,7 @@
             android:background="@color/white"
             android:autofillHints=""
             tools:ignore="LabelFor"
-            android:padding="10dp"/>
+            android:padding="12dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -96,7 +96,7 @@
             android:background="@color/white"
             android:autofillHints=""
             tools:ignore="LabelFor"
-            android:padding="10dp"/>
+            android:padding="12dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -127,7 +127,7 @@
         android:background="@color/white"
         android:autofillHints=""
         tools:ignore="LabelFor"
-        android:padding="10dp"/>
+        android:padding="12dp"/>
     </LinearLayout>
 
     <LinearLayout

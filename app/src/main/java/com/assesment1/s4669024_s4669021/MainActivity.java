@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        addCarBtn=(Button) findViewById(R.id.addcarBtn);
-        checkCarBtn=(Button) findViewById(R.id.checkcarBtn);
+        addCarBtn= findViewById(R.id.addCarBtn);
+        checkCarBtn= findViewById(R.id.checkCarBtn);
 
         addCarBtn.setOnClickListener(this);
         checkCarBtn.setOnClickListener(this);
@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view){
         int id= view.getId();
-        if(id==R.id.addcarBtn){
+        if(id==R.id.addCarBtn){
             goToActivityAddCar();
         }
-        if(id==R.id.checkcarBtn){
+        if(id==R.id.checkCarBtn){
             gotoActivityCheckCar();
         }
     }

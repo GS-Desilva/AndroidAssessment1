@@ -19,12 +19,12 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkcar);
 
-        checkPriceBtn = (Button) findViewById(R.id.checkPriceBtn);
+        checkPriceBtn = findViewById(R.id.checkPriceBtn);
 
 
-        checkBrandEx = (EditText) findViewById(R.id.checkBrandEx);
-        checkModelEx = (EditText) findViewById(R.id.checkModelEx);
-        checkPriceEx = (EditText) findViewById(R.id.checkPriceEx);
+        checkBrandEx = findViewById(R.id.checkBrandEx);
+        checkModelEx = findViewById(R.id.checkModelEx);
+        checkPriceEx = findViewById(R.id.checkPriceEx);
 
 
         checkPriceBtn.setOnClickListener(this);

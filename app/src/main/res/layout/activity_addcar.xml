@@ -42,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/bgCar"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:paddingRight="20dp"
         android:paddingLeft="20dp"
@@ -49,7 +50,7 @@
 
     <TextView
         android:id="@+id/addBrandTxt"
-        android:layout_width="180dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="@string/brandtxt"
         android:textSize="15sp"
@@ -80,7 +81,7 @@
 
         <TextView
             android:id="@+id/addModelTxt"
-            android:layout_width="180dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/modeltxt"
             android:textSize="15sp"
@@ -111,7 +112,7 @@
 
     <TextView
         android:id="@+id/addPriceTxt"
-        android:layout_width="180dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="@string/pricetxt"
         android:textSize="15sp"
@@ -142,6 +143,9 @@
     <Button
         android:id="@+id/addcar2btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/addcartext"
+        android:textColor="@color/black"
+        android:backgroundTint="#46b4e7"/>
     </LinearLayout>
 </RelativeLayout>

@@ -15,7 +15,6 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
-        app:title="assessment_s4669021-s4669024"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <ImageView
@@ -23,7 +22,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
     <Button

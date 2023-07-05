@@ -46,7 +46,7 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         String model = checkModelEx.getText().toString().trim();
 
         if(brand.isEmpty() || model.isEmpty()) {
-            Toast.makeText(this, "Please enter brand name and model name", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter brand name and model name!", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -55,7 +55,8 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         if(price == -1) {
             Toast.makeText(this, "Car not found. Please try again!", Toast.LENGTH_SHORT).show();
             checkPriceEx.setText("");
-        } else {
+        }
+        else {
             checkPriceEx.setText(String.valueOf(price));
         }
     }

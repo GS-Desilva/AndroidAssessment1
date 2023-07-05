@@ -5,6 +5,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Get the Toolbar from the layout
         Toolbar toolbar = findViewById(R.id.toolbar);
-
-        // Set the Toolbar as the ActionBar
         setSupportActionBar(toolbar);
+
+        // ensuring that the ActionBar is not null (not absent) before setting its title
+        Objects.requireNonNull(getSupportActionBar()).setTitle("assessment_s4669021-s4669024");
     }
 }

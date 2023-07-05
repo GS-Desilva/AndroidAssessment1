@@ -32,7 +32,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
 
@@ -45,7 +45,7 @@
         android:layout_marginEnd="182dp"
         android:layout_marginBottom="135dp"
         android:text="Car Brand"
-        android:textSize="20dp" />
+        android:textSize="15dp" />
 
     <EditText
         android:layout_width="200dp"
@@ -57,7 +57,7 @@
         android:background="@color/white"
         android:contentDescription="@string/carBrand"
         android:inputType="text"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/checkPriceBtn"

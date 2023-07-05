@@ -17,34 +17,34 @@
         android:layout_marginTop="70dp"
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
+
     <Button
         android:id="@+id/addCarBtn"
-        android:layout_width="100dp"
+        android:layout_width="120dp"
         android:layout_height="60dp"
-        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="357dp"
         android:backgroundTint="#46b4e7"
         android:text="@string/addCarBtn"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="310dp"
-        android:layout_marginEnd="170dp"
-        android:layout_marginBottom="359dp"/>
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/checkCarBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="320dp"
-        android:layout_marginEnd="155dp"
+        android:layout_marginEnd="159dp"
         android:layout_marginBottom="269dp"
         android:backgroundTint="#46b4e7"
         android:text="@string/checkCarBtn"
         android:textColor="@color/black"
-        tools:ignore="RelativeOverlap" />
-
+        tools:ignore="RelativeOverlap,TextSizeCheck" />
 
 
 </RelativeLayout>

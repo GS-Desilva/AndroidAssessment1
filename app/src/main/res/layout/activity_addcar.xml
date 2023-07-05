@@ -127,8 +127,7 @@
         android:layout_below="@id/priceLayout"
         android:gravity="center"
         android:paddingRight="20dp"
-        android:paddingLeft="20dp"
-        android:layout_marginBottom="20dp">
+        android:paddingLeft="20dp">
     <Button
         android:id="@+id/addcar2btn"
         android:layout_width="wrap_content"
@@ -136,5 +135,25 @@
         android:text="@string/addCarText"
         android:textColor="@color/black"
         android:backgroundTint="#46b4e7"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/backbtnLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addCarLayout"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/backBtn"
+            android:textColor="@color/black"
+            android:backgroundTint="#46b4e7"/>
     </LinearLayout>
 </RelativeLayout>

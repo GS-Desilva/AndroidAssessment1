@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,6 +17,14 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="513dp"
+        android:contentDescription="@string/car"
+        app:srcCompat="@drawable/car" />
     <Button
         android:id="@+id/addcarBtn"
         android:layout_width="100dp"
@@ -34,13 +43,16 @@
         android:id="@+id/checkcarBtn"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="269dp"
         android:backgroundTint="#46b4e7"
         android:text="@string/checkcarbtn"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="273dp"
-        android:layout_marginTop="320dp"/>
+        android:textColor="@color/black"
+        tools:ignore="RelativeOverlap" />
+
+
 
 </RelativeLayout>

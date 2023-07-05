@@ -30,4 +30,13 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
 
         DBHelper = new DBHelper(this);
     }
+
+    @Override
+    public void onClick(View view) {
+        int id = view.getId();
+
+        if(id == R.id.checkPriceBtn) {
+            viewPrice();
+        }
+    }
 }

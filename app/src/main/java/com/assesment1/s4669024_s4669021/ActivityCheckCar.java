@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 
-    Button btnBack, checkPriceBtn;
+    Button checkPriceBtn;
     EditText checkBrandEx,checkModelEx,checkPriceEx;
     DBHelper DBHelper;
 

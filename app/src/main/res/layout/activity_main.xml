@@ -8,4 +8,21 @@
     android:background="#89CFF0">
 
 
+
+    <Button
+        android:id="@+id/addcarBtn"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#46b4e7"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/checkcarBtn"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#46b4e7"
+        android:text=""/>
+
 </RelativeLayout>

@@ -6,4 +6,5 @@
     <string name="car">redCar</string>
     <string name="carBrand">car brand</string>
     <string name="addcartext">Add Car</string>
+    <string name="checkcartext">Check Car</string>
 </resources>

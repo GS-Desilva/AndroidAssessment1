@@ -32,4 +32,11 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
             insertData();
         }
     }
+
+    private void insertData(){
+        String brand =addBrandSpace.getText().toString();
+        String model =addModelSpace.getText().toString();
+        String price =addPriceSpace.getText().toString();
+
+    }
 }

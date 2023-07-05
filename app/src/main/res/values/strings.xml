@@ -2,16 +2,16 @@
 <resources>
     <string name="app_name">s4669024_s4669021</string>
 
-    <string name="addcarbtn">ADD CAR</string>
-    <string name="checkcarbtn">CHECK CAR</string>
-    <string name="checkpricebtn">CHECK PRICE</string>
+    <string name="addCarBtn">ADD CAR</string>
+    <string name="checkCarBtn">CHECK CAR</string>
+    <string name="checkPriceBtn">CHECK PRICE</string>
     <string name="car">redCar</string>
-    <string name="brandtxt">Car Brand</string>
-    <string name="addcartext">Add Car</string>
-    <string name="checkcartext">Check Car</string>
-    <string name="modeltxt">Car Model</string>
-    <string name="pricetxt">Car Price</string>
-    <string name="checkcartitle">Check Car</string>
+    <string name="brandTxt">Car Brand</string>
+    <string name="addCarText">Add Car</string>
+    <string name="checkCarText">Check Car</string>
+    <string name="modelTxt">Car Model</string>
+    <string name="priceTxt">Car Price</string>
+    <string name="checkCarTitle">Check Car</string>
 
 
 

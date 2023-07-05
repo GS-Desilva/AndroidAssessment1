@@ -25,7 +25,9 @@
         android:layout_below="@id/toolbar"
         android:text="@string/checkcartext"
         android:textAlignment="center"
-        android:textSize="25sp"/>
+        android:textSize="15sp"
+        android:contentDescription="Check Car Activity title"/>
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -45,7 +47,7 @@
         android:layout_marginEnd="179dp"
         android:layout_marginBottom="361dp"
         android:text="Car Brand"
-        android:textSize="15dp" />
+        android:textSize="15sp"/>
 
     <EditText
         android:layout_width="200dp"
@@ -55,7 +57,6 @@
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="360dp"
         android:background="@color/white"
-        android:contentDescription="@string/carBrand"
         android:inputType="text"
         android:textSize="15sp" />
 
@@ -68,7 +69,8 @@
         android:layout_marginEnd="175dp"
         android:layout_marginBottom="292dp"
         android:text="Car Model"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
 
 
     <EditText
@@ -79,7 +81,6 @@
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="288dp"
         android:background="@color/white"
-        android:contentDescription="@string/carBrand"
         android:inputType="text"
         android:textSize="15sp" />
 
@@ -104,7 +105,8 @@
         android:layout_marginEnd="177dp"
         android:layout_marginBottom="131dp"
         android:text="Car Price"
-        android:textSize="15dp" />
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
         android:layout_width="200dp"
@@ -114,7 +116,6 @@
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="129dp"
         android:background="@color/white"
-        android:contentDescription="@string/carBrand"
         android:inputType="text"
         android:textSize="15sp" />
 

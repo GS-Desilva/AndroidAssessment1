@@ -1,3 +1,4 @@
+
 <resources>
     <string name="app_name">s4669024_s4669021</string>
 
@@ -9,7 +10,7 @@
     <string name="checkcartext">Check Car</string>
     <string name="modeltxt">Car Model</string>
     <string name="pricetxt">Car Price</string>
-
+    <string name="car_price_label">Car Price</string>
 
 
 </resources>

@@ -19,7 +19,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <TextView
-        android:id="@+id/checkCarTopic"
+        android:id="@+id/checkcarTopic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
@@ -30,7 +30,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/bgCar"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -39,7 +39,7 @@
         app:srcCompat="@drawable/car" />
 
     <TextView
-        android:id="@+id/carBrand"
+        android:id="@+id/checkBrandTxt"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -50,6 +50,7 @@
         android:textSize="15sp"/>
 
     <EditText
+        android:id="@+id/checkBrandEx"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -61,7 +62,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/carModel"
+        android:id="@+id/carModelTxt"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -74,6 +75,7 @@
 
 
     <EditText
+        android:id="@+id/checkModelEx"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -97,18 +99,19 @@
         android:text="CHECK PRICE" />
 
     <TextView
-        android:id="@+id/carPrice"
+        android:id="@+id/carpricetext"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="177dp"
         android:layout_marginBottom="131dp"
-        android:text="Car Price"
         android:textSize="15sp"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextSizeCheck"
+        android:text="@string/car_price_label"/>
 
     <EditText
+        android:id="@+id/checkPriceEx"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

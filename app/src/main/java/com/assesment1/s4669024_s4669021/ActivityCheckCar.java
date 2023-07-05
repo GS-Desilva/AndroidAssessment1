@@ -18,7 +18,6 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkcar);
 
-        //btnBack = (Button) findViewById(R.id.btnBack);
         checkPriceBtn = (Button) findViewById(R.id.checkPriceBtn);
 
 
@@ -26,7 +25,7 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         checkModelEx = (EditText) findViewById(R.id.checkModelEx);
         checkPriceEx = (EditText) findViewById(R.id.checkPriceEx);
 
-        btnBack.setOnClickListener(this);
+
         checkPriceBtn.setOnClickListener(this);
 
         DBHelper = new DBHelper(this);

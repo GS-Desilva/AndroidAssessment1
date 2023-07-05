@@ -19,11 +19,11 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <TextView
-        android:id="@+id/addcarTopic"
+        android:id="@+id/addCarTopic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:text="@string/addcartext"
+        android:text="@string/addCarText"
         android:textAlignment="center"
         android:textSize="25sp"/>
 
@@ -52,7 +52,7 @@
         android:id="@+id/addBrandTxt"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@string/brandtxt"
+        android:text="@string/brandTxt"
         android:textSize="15sp"
         android:padding="10dp"/>
 
@@ -83,7 +83,7 @@
             android:id="@+id/addModelTxt"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/modeltxt"
+            android:text="@string/modelTxt"
             android:textSize="15sp"
             android:padding="10dp"/>
 
@@ -114,7 +114,7 @@
         android:id="@+id/addPriceTxt"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@string/pricetxt"
+        android:text="@string/priceTxt"
         android:textSize="15sp"
         android:padding="10dp"/>
 
@@ -144,7 +144,7 @@
         android:id="@+id/addcar2btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/addcartext"
+        android:text="@string/addCarText"
         android:textColor="@color/black"
         android:backgroundTint="#46b4e7"/>
     </LinearLayout>

@@ -7,7 +7,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import com.assesment1.s4669024_s4669021.R;
+
+import com.assesment1.assessment_s4669024_s4669021.R;
 
 public class ActivityAddCar extends AppCompatActivity implements View.OnClickListener{
 
@@ -48,7 +49,7 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         }
 
         else{
-            Toast.makeText(ActivityAddCar.this,"Data is not inserted!",Toast.LENGTH_LONG).show();
+            Toast.makeText(ActivityAddCar.this,"Please insert the relevant data",Toast.LENGTH_LONG).show();
         }
     }
 }

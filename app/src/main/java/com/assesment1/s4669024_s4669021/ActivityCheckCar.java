@@ -5,9 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+import com.assesment1.assessment_s4669024_s4669021.R;
 import androidx.appcompat.app.AppCompatActivity;
-import com.assesment1.s4669024_s4669021.R;
 public abstract class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 
     Button checkPriceBtn;

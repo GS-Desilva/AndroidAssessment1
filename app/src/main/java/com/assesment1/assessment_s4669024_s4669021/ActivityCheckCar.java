@@ -1,4 +1,4 @@
-package com.assesment1.s4669024_s4669021;
+package com.assesment1.assessment_s4669024_s4669021;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.assesment1.s4669024_s4669021.R;
 
 public abstract class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 

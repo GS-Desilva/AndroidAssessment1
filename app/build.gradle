@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.assesment1.s4669024_s4669021'
+    namespace 'com.assesment1.assessment_s4669024_s4669021'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.assesment1.s4669024_s4669021"
+        applicationId "com.assesment1.assessment_s4669024_s4669021"
         minSdk 24
         targetSdk 33
         versionCode 1

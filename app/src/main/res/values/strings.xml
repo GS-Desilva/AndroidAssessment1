@@ -12,9 +12,7 @@
     <string name="modeltxt">Car Model</string>
     <string name="pricetxt">Car Price</string>
     <string name="checkcartitle">Check Car</string>
-    <string name="checkpriceex">Check Price</string>
-    <string name="checkpmodelex">Enter Model Name</string>
-    <string name="checkbrandex">Enter Brand Name</string>
+
 
 
 </resources>

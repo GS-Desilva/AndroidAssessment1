@@ -29,6 +29,7 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         addPriceSpace=findViewById(R.id.addPriceSpace);
 
         addCar2Btn.setOnClickListener(this);
+        backBtn.setOnClickListener(this);
     }
 
     @Override

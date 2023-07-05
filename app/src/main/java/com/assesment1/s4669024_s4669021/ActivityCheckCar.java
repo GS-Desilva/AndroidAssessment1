@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,4 +40,24 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
             viewPrice();
         }
     }
+
+    private void viewPrice() {
+        String brand = checkBrandEx.getText().toString().trim();
+        String model = checkModelEx.getText().toString().trim();
+
+        if(brand.isEmpty() || model.isEmpty()) {
+            Toast.makeText(this, "Please enter brand name and model name", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        int price = DBHelper.getPrice(brand, model);
+
+        if(price == -1) {
+            Toast.makeText(this, "Car not found. Please try again!", Toast.LENGTH_SHORT).show();
+            checkPriceEx.setText("");
+        } else {
+            checkPriceEx.setText(String.valueOf(price));
+        }
+    }
+
 }

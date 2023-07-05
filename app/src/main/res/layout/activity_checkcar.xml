@@ -19,11 +19,11 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <TextView
-        android:id="@+id/checkcarTopic"
+        android:id="@+id/checkCarTopic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:text="@string/checkcartitle"
+        android:text="@string/checkCarTitle"
         android:textAlignment="center"
         android:textColor="#1B5E20"
         android:textSize="25sp" />
@@ -61,7 +61,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="408dp"
-        android:text="@string/brandtxt"
+        android:text="@string/brandTxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
         tools:ignore="VisualLintOverlap" />
@@ -90,17 +90,17 @@
         android:layout_marginBottom="250dp"
         android:textColor="@color/black"
         android:backgroundTint="#46b4e7"
-        android:text="@string/checkpricebtn" />
+        android:text="@string/checkPriceBtn" />
 
     <TextView
-        android:id="@+id/carpricetext"
+        android:id="@+id/carPriceText"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="140dp"
         android:layout_marginBottom="178dp"
-        android:text="@string/pricetxt"
+        android:text="@string/priceTxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />
@@ -127,7 +127,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="338dp"
-        android:text="@string/modeltxt"
+        android:text="@string/modelTxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />

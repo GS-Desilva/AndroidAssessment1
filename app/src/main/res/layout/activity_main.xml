@@ -27,12 +27,12 @@
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
     <Button
-        android:id="@+id/addcarBtn"
+        android:id="@+id/addCarBtn"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:textColor="@color/black"
         android:backgroundTint="#46b4e7"
-        android:text="@string/addcarbtn"
+        android:text="@string/addCarBtn"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
@@ -41,16 +41,16 @@
         android:layout_marginBottom="359dp"/>
 
     <Button
-        android:id="@+id/checkcarBtn"
+        android:id="@+id/checkCarBtn"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="320dp"
-        android:layout_marginEnd="160dp"
+        android:layout_marginEnd="155dp"
         android:layout_marginBottom="269dp"
         android:backgroundTint="#46b4e7"
-        android:text="@string/checkcarbtn"
+        android:text="@string/checkCarBtn"
         android:textColor="@color/black"
         tools:ignore="RelativeOverlap" />
 

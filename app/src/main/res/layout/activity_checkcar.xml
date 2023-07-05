@@ -46,8 +46,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="179dp"
         android:layout_marginBottom="361dp"
-        android:text="Car Brand"
-        android:textSize="15sp"/>
+        android:textSize="15sp"
+        android:text="@string/brandtxt" />
 
     <EditText
         android:id="@+id/checkBrandEx"
@@ -69,9 +69,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="175dp"
         android:layout_marginBottom="292dp"
-        android:text="Car Model"
         android:textSize="15dp"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextSizeCheck"
+        android:text="@string/check_model_label" />
 
 
     <EditText

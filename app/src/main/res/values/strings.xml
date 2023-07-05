@@ -4,7 +4,12 @@
     <string name="addcarbtn">ADD CAR</string>
     <string name="checkcarbtn">CHECK CAR</string>
     <string name="car">redCar</string>
-    <string name="carBrand">car brand</string>
+    <string name="carBrand">Car Brand</string>
     <string name="addcartext">Add Car</string>
     <string name="checkcartext">Check Car</string>
+    <string name="modeltxt">Car Model</string>
+    <string name="pricetxt">Car Price</string>
+
+
+
 </resources>

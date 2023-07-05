@@ -4,4 +4,6 @@
     <string name="addcarbtn">ADD CAR</string>
     <string name="checkcarbtn">CHECK CAR</string>
     <string name="car">redCar</string>
+
+    <string name="addcartext">Add Car</string>
 </resources>

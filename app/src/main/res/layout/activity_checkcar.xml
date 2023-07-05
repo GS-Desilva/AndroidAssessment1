@@ -26,7 +26,7 @@
         android:text="@string/checkcartitle"
         android:textAlignment="center"
         android:textColor="#1B5E20"
-        android:textSize="15sp" />
+        android:textSize="25sp" />
 
 
     <ImageView
@@ -59,12 +59,10 @@
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="360dp"
         android:background="@color/white"
-        android:hint="@string/checkbrandex"
         android:inputType="text"
         android:minHeight="48dp"
         android:textSize="15sp"
-        tools:ignore="LabelFor"
-        android:importantForAutofill="no" />
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/carModelTxt"
@@ -89,12 +87,10 @@
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="288dp"
         android:background="@color/white"
-        android:hint="@string/checkpmodelex"
         android:inputType="text"
         android:minHeight="48dp"
         android:textSize="15sp"
-        tools:ignore="LabelFor"
-        android:importantForAutofill="no" />
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/checkPriceBtn"
@@ -102,8 +98,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="216dp"
         android:background="#0E88BF"
         android:backgroundTint="#0E88BF"
         android:text="@string/checkpricebtn"
@@ -131,12 +127,10 @@
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="129dp"
         android:background="@color/white"
-        android:hint="@string/checkpriceex"
         android:inputType="text"
         android:minHeight="48dp"
         android:textSize="15sp"
-        tools:ignore="LabelFor"
-        android:importantForAutofill="no" />
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
 
 </RelativeLayout>

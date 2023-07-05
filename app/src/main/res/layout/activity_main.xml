@@ -19,7 +19,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/bgCar"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

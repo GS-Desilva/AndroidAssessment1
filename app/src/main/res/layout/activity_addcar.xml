@@ -19,7 +19,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <TextView
-        android:id="@+id/addcartopic"
+        android:id="@+id/addcarTopic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
@@ -37,9 +37,33 @@
         app:srcCompat="@drawable/car" />
 
     <LinearLayout
+        android:id="@+id/addcarLayout"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bgCar"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp">
 
+    <TextView
+        android:id="@+id/addBrandTxt"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Car Brand"
+        android:textSize="15sp"
+        android:padding="10dp"/>
 
+        <EditText
+            android:id="@+id/addBrandSpace"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:background="@color/white"
+            android:autofillHints=""
+            tools:ignore="LabelFor"
+            android:padding="12dp"/>
     </LinearLayout>
 </RelativeLayout>

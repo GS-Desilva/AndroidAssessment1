@@ -3,13 +3,14 @@ package com.assesment1.s4669024_s4669021;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity implements View.onClickListner{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button addCarBtn, checkCarBtn;
     @Override
@@ -40,6 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.onClickListn
         }
     }
     private void goToActivityAddCar(){
-
+        Intent intent=new Intent(this, ActivityAddCar.class);
+        startActivity(intent);
+    }
+    private void gotoActivityCheckCar(){
+        Intent intent=new Intent(this, ActivityCheckCar.class);
+        startActivity(intent);
     }
 }

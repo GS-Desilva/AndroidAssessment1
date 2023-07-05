@@ -44,11 +44,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="179dp"
-        android:layout_marginBottom="361dp"
-        android:textSize="15sp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="371dp"
+        android:text="@string/brandtxt"
         android:textColor="#1B5E20"
-        android:text="@string/brandtxt" />
+        android:textSize="15sp"
+        tools:ignore="VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkBrandEx"
@@ -64,19 +65,19 @@
         android:textSize="15sp"
         tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
+
     <TextView
         android:id="@+id/carModelTxt"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="175dp"
-        android:layout_marginBottom="292dp"
-        android:textSize="15sp"
-        tools:ignore="TextSizeCheck"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="301dp"
+        android:text="@string/modeltxt"
         android:textColor="#1B5E20"
-        android:text="@string/modeltxt" />
-
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkModelEx"
@@ -98,8 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="213dp"
         android:background="#0E88BF"
         android:backgroundTint="#0E88BF"
         android:text="@string/checkpricebtn"
@@ -111,12 +112,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="131dp"
-        android:textSize="15sp"
-        tools:ignore="TextSizeCheck"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="141dp"
+        android:text="@string/pricetxt"
         android:textColor="#1B5E20"
-        android:text="@string/pricetxt"/>
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkPriceEx"
@@ -124,7 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="51dp"
+        android:layout_marginEnd="53dp"
         android:layout_marginBottom="129dp"
         android:background="@color/white"
         android:inputType="text"

@@ -47,7 +47,9 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
             Toast.makeText(ActivityAddCar.this,"Data Inserted successfully!", Toast.LENGTH_LONG).show();
 
         }else{
-            Toast.makeText()
+            Toast.makeText(ActivityAddCar.this,"Data is not inserted!",Toast.LENGTH_LONG).show();
         }
     }
+
+
 }

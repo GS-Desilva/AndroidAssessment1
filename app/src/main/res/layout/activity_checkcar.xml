@@ -52,8 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="291dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="360dp"
         android:background="@color/white"
         android:contentDescription="@string/carBrand"
         android:inputType="text"
@@ -70,6 +70,19 @@
         android:text="Car Model"
         android:textSize="15dp" />
 
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="288dp"
+        android:background="@color/white"
+        android:contentDescription="@string/carBrand"
+        android:inputType="text"
+        android:textSize="15sp" />
+
     <Button
         android:id="@+id/checkPriceBtn"
         android:layout_width="wrap_content"
@@ -81,18 +94,6 @@
         android:background="#0E88BF"
         android:backgroundTint="#0E88BF"
         android:text="CHECK PRICE" />
-
-    <EditText
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="360dp"
-        android:background="@color/white"
-        android:contentDescription="@string/carBrand"
-        android:inputType="text"
-        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/carPrice"
@@ -110,8 +111,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="131dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="129dp"
         android:background="@color/white"
         android:contentDescription="@string/carBrand"
         android:inputType="text"

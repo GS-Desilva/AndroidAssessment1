@@ -16,7 +16,6 @@
         android:textColor="#1B5E20"
         android:textSize="25sp" />
 
-
     <ImageView
         android:id="@+id/bgCar"
         android:layout_width="250dp"
@@ -26,6 +25,18 @@
         android:contentDescription="@string/car"
         app:srcCompat="@drawable/car" />
 
+    <TextView
+        android:id="@+id/checkBrandTxt"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="408dp"
+        android:text="@string/brandTxt"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        tools:ignore="VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkBrandEx"
@@ -42,17 +53,17 @@
         tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/checkBrandTxt"
+        android:id="@+id/carModelTxt"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="135dp"
-        android:layout_marginBottom="408dp"
-        android:text="@string/brandTxt"
+        android:layout_marginBottom="338dp"
+        android:text="@string/modelTxt"
         android:textColor="#1B5E20"
         android:textSize="15sp"
-        tools:ignore="VisualLintOverlap" />
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <EditText
         android:id="@+id/checkModelEx"
@@ -80,7 +91,6 @@
         android:backgroundTint="#46b4e7"
         android:text="@string/checkPriceBtn" />
 
-
     <TextView
         android:id="@+id/carPriceText"
         android:layout_width="205dp"
@@ -93,6 +103,7 @@
         android:textColor="#1B5E20"
         android:textSize="15sp"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
 
     <EditText
         android:id="@+id/checkPriceEx"
@@ -108,19 +119,6 @@
         android:textSize="15sp"
         tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
 
-    <TextView
-        android:id="@+id/carModelTxt"
-        android:layout_width="205dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="135dp"
-        android:layout_marginBottom="338dp"
-        android:text="@string/modelTxt"
-        android:textColor="#1B5E20"
-        android:textSize="15sp"
-        tools:ignore="TextSizeCheck,VisualLintOverlap" />
-
     <Button
         android:id="@+id/backBtn"
         android:layout_width="wrap_content"
@@ -129,9 +127,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="153dp"
         android:layout_marginBottom="86dp"
-        android:textColor="@color/black"
         android:backgroundTint="#46b4e7"
-        android:text="@string/backBtn" />
-
-
+        android:text="@string/backBtn"
+        android:textColor="@color/black" />
 </RelativeLayout>

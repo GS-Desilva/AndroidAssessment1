@@ -1,6 +1,5 @@
 package com.assesment1.s4669024_s4669021;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,13 +10,13 @@ import com.assesment1.assessment_s4669024_s4669021.R;
 import com.assesment1.s4669024_s4669021.data.DBHelper;
 
 import androidx.appcompat.app.AppCompatActivity;
-public abstract class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
+public class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 
     Button checkPriceBtn, backBtn;
     EditText checkBrandEx,checkModelEx,checkPriceEx;
     DBHelper dbHelper;
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

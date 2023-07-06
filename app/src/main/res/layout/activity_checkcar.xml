@@ -80,6 +80,7 @@
         android:backgroundTint="#46b4e7"
         android:text="@string/checkPriceBtn" />
 
+
     <TextView
         android:id="@+id/carPriceText"
         android:layout_width="205dp"
@@ -116,6 +117,19 @@
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="338dp"
         android:text="@string/modelTxt"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="86dp"
+        android:text="@string/backBtn"
         android:textColor="#1B5E20"
         android:textSize="15sp"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />

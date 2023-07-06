@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         tools:targetApi="31">
+
+        <!--MainActivity-->
         <activity
             android:name="com.assesment1.s4669024_s4669021.MainActivity"
             android:exported="true">
@@ -22,6 +24,7 @@
             </intent-filter>
         </activity>
 
+        <!--ActivityAddCar-->
         <activity
             android:name="com.assesment1.s4669024_s4669021.ActivityAddCar"
             android:exported="true">
@@ -31,6 +34,7 @@
             </intent-filter>
         </activity>
 
+        <!--ActivityAddCheckCar-->
         <activity
             android:name="com.assesment1.s4669024_s4669021.ActivityCheckCar"
             android:exported="true">

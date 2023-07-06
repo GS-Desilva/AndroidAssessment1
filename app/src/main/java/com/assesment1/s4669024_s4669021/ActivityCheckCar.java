@@ -1,6 +1,7 @@
 package com.assesment1.s4669024_s4669021;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -73,6 +74,12 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         else {
             checkPriceEx.setText(String.valueOf(price));
         }
+    }
+
+    private void goToHomePage()
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
 

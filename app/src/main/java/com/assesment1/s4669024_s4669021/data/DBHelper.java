@@ -1,5 +1,6 @@
 package com.assesment1.s4669024_s4669021.data;
 
+//importing the necessary classes
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,28 +8,32 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+//defining a helper class to manage the SQLite database
 public class DBHelper extends SQLiteOpenHelper {
+        //creating the database
         public static final String DATABASE_NAME = "garage.db";
+        //creating the table
         public static final String TABLE_NAME = "car";
+        //declaring the attributes
         public static final String CAR_ID = "id";
         public static final String CAR_BRAND = "brand";
         public static final String CAR_MODEL = "model";
         public static final String CAR_PRICE = "price";
 
-
+        //constructor declaration
         public DBHelper(Context context) {
             super(context, DATABASE_NAME, null, 1);
         }
 
         @Override
         public void onCreate(SQLiteDatabase db) {
-            String CREATE_PRODUCT_TABLE = "CREATE TABLE " + TABLE_NAME
+            String CAR_INFO = "CREATE TABLE " + TABLE_NAME
                     + "(" + CAR_ID + " INTEGER " + "PRIMARY KEY AUTOINCREMENT, "
                     + CAR_BRAND + " TEXT, "
                     + CAR_MODEL + " TEXT, "
                     + CAR_PRICE + " INTEGER)";
 
-            db.execSQL(CREATE_PRODUCT_TABLE);
+            db.execSQL(CAR_INFO);
         }
 
         @Override

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         tools:targetApi="31">
 
-        <!--MainActivity-->
+        <!--MainActivity Launcher-->
         <activity
             android:name="com.assesment1.s4669024_s4669021.MainActivity"
             android:exported="true">
@@ -24,25 +24,11 @@
             </intent-filter>
         </activity>
 
-        <!--ActivityAddCar-->
-        <activity
-            android:name="com.assesment1.s4669024_s4669021.ActivityAddCar"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+        <activity android:name="com.assesment1.s4669024_s4669021.ActivityAddCar"
+                  android:exported="false"/>
 
-        <!--ActivityAddCheckCar-->
-        <activity
-            android:name="com.assesment1.s4669024_s4669021.ActivityCheckCar"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+        <activity android:name="com.assesment1.s4669024_s4669021.ActivityCheckCar"
+                  android:exported="false"/>
 
     </application>
 

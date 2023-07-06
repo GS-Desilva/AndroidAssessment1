@@ -17,16 +17,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Toolbar toolbar = findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
         addCarBtn= findViewById(R.id.addCarBtn);
         checkCarBtn= findViewById(R.id.checkCarBtn);
 
         addCarBtn.setOnClickListener(this);
         checkCarBtn.setOnClickListener(this);
-        // ensuring that the ActionBar is not null (not absent) before setting its title
-        //Objects.requireNonNull(getSupportActionBar()).setTitle("assessment_s4669021-s4669024");
     }
 
     @Override
@@ -43,8 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent=new Intent(this, ActivityAddCar.class);
         startActivity(intent);
     }
+
     private void gotoCheckCarPage(){
-        Intent intent=new Intent(this, ActivityCheckCar.class);
+        Intent intent = new Intent(this, ActivityCheckCar.class);
         startActivity(intent);
     }
 }

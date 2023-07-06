@@ -37,24 +37,25 @@
         android:paddingLeft="20dp"
         android:layout_marginBottom="20dp">
 
-    <TextView
-        android:id="@+id/addBrandTxt"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="@string/brandTxt"
-        android:textSize="15sp"
-        android:padding="10dp"/>
+        <TextView
+            android:id="@+id/addBrandTxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/brandTxt"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
 
         <EditText
             android:id="@+id/addBrandSpace"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:inputType="text"
-            android:background="@color/white"
             android:autofillHints=""
-            tools:ignore="LabelFor"
-            android:padding="12dp"/>
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="15sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,20 +73,21 @@
             android:id="@+id/addModelTxt"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:text="@string/modelTxt"
             android:textSize="15sp"
-            android:padding="10dp"/>
+            tools:ignore="TextContrastCheck" />
 
         <EditText
             android:id="@+id/addModelSpace"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:inputType="text"
-            android:background="@color/white"
             android:autofillHints=""
-            tools:ignore="LabelFor"
-            android:padding="12dp"/>
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="15sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -99,24 +101,25 @@
         android:paddingLeft="20dp"
         android:layout_marginBottom="20dp">
 
-    <TextView
-        android:id="@+id/addPriceTxt"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="@string/priceTxt"
-        android:textSize="15sp"
-        android:padding="10dp"/>
+        <TextView
+            android:id="@+id/addPriceTxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/priceTxt"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
 
-    <EditText
-        android:id="@+id/addPriceSpace"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:inputType="text"
-        android:background="@color/white"
-        android:autofillHints=""
-        tools:ignore="LabelFor"
-        android:padding="12dp"/>
+        <EditText
+            android:id="@+id/addPriceSpace"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="15sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -128,13 +131,15 @@
         android:gravity="center"
         android:paddingRight="20dp"
         android:paddingLeft="20dp">
-    <Button
-        android:id="@+id/addcar2btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/addCarText"
-        android:textColor="@color/black"
-        android:backgroundTint="#46b4e7"/>
+
+        <Button
+            android:id="@+id/addcar2btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#46b4e7"
+            android:text="@string/addCarText"
+            android:textColor="@color/black"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
     </LinearLayout>
     <LinearLayout

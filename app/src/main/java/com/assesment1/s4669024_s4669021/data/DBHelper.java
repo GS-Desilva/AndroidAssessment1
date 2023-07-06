@@ -1,4 +1,4 @@
-package com.assesment1.s4669024_s4669021;
+package com.assesment1.s4669024_s4669021.data;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;

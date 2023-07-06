@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import com.assesment1.assessment_s4669024_s4669021.R;
+import com.assesment1.s4669024_s4669021.data.DBHelper;
+
 import androidx.appcompat.app.AppCompatActivity;
 public abstract class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 

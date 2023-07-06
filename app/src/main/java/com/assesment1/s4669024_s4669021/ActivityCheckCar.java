@@ -13,7 +13,7 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
 
     Button checkPriceBtn, backBtn;
     EditText checkBrandEx,checkModelEx,checkPriceEx;
-    DBHelper DBHelper;
+    DBHelper dbHelper;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -31,7 +31,7 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
         checkPriceBtn.setOnClickListener(this);
         backBtn.setOnClickListener(this);
 
-        DBHelper = new DBHelper(this);
+        dbHelper = new DBHelper(this);
     }
 
     @Override
@@ -65,7 +65,7 @@ public abstract class ActivityCheckCar extends AppCompatActivity implements View
             return;
         }
 
-        int price = DBHelper.getPrice(brand,model);
+        int price = dbHelper.getPrice(brand,model);
 
         if(price == -1){
             Toast.makeText(this, "Car not found. Please enter the brand and model again!",Toast.LENGTH_SHORT).show();

@@ -44,36 +44,25 @@ public class ActivityAddCar extends AppCompatActivity implements View.OnClickLis
         }
     }
 
-    private void insertData(){
-        String brand =addBrandSpace.getText().toString();
-        String model =addModelSpace.getText().toString();
-        String price =addPriceSpace.getText().toString();
+    private void insertData() {
+        String brand = addBrandSpace.getText().toString();
+        String model = addModelSpace.getText().toString();
+        String price = addPriceSpace.getText().toString();
 
-        if(brand.isEmpty())
+        boolean isInserted = false;
+        if (brand.isEmpty() || model.isEmpty() || price.isEmpty()) {
+            Toast.makeText(ActivityAddCar.this, "Enter values in all fields!", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            isInserted = dbHelper.insertData(brand, model, Integer.parseInt(price));
+        }
+
+        if (isInserted) {
+            Toast.makeText(ActivityAddCar.this, "Data inserted Successfully!", Toast.LENGTH_LONG).show();
+        }
+        else
         {
-            Toast.makeText(this, "Please enter brand name!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if(model.isEmpty())
-        {
-            Toast.makeText(this, "Please enter model name!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if(price.isEmpty())
-        {
-            Toast.makeText(this, "Please enter price!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        boolean isInserted=dbHelper.insertData(brand,model, Integer.parseInt(price));
-        if(isInserted){
-            Toast.makeText(ActivityAddCar.this,"Data Inserted successfully!", Toast.LENGTH_LONG).show();
-        }
-
-        else{
-            Toast.makeText(ActivityAddCar.this,"Please insert the relevant data",Toast.LENGTH_LONG).show();
+            Toast.makeText(ActivityAddCar.this, "Data entry Failed!", Toast.LENGTH_LONG).show();
         }
     }
 

@@ -13,11 +13,12 @@ import com.assesment1.s4669024_s4669021.data.DBHelper;
 import androidx.appcompat.app.AppCompatActivity;
 public class ActivityCheckCar extends AppCompatActivity implements View.OnClickListener{
 
+    //declaring variables
     Button checkPriceBtn, backBtn;
     EditText checkBrandEx,checkModelEx,checkPriceEx;
     DBHelper dbHelper;
 
-
+    //method that initializes this activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,7 @@ public class ActivityCheckCar extends AppCompatActivity implements View.OnClickL
         dbHelper = new DBHelper(this);
     }
 
+    //button handling
     @Override
     public void onClick(View view) {
         int id = view.getId();
@@ -51,10 +53,13 @@ public class ActivityCheckCar extends AppCompatActivity implements View.OnClickL
         }
     }
 
+    //method used to display the price
     private void displayPrice(){
+        //retrieving the values entered by the user
         String brand = checkBrandEx.getText().toString().trim();
         String model = checkModelEx.getText().toString().trim();
 
+        //validation
         if(brand.isEmpty())
         {
             Toast.makeText(this, "Please enter brand name!", Toast.LENGTH_SHORT).show();
@@ -78,6 +83,7 @@ public class ActivityCheckCar extends AppCompatActivity implements View.OnClickL
         }
     }
 
+    //creating an explicit intent
     private void goToHomePage()
     {
         Intent intent = new Intent(this, MainActivity.class);

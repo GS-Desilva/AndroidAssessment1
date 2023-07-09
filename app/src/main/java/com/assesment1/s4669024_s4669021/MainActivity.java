@@ -11,7 +11,10 @@ import com.assesment1.assessment_s4669024_s4669021.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+    //declaring variables
     Button addCarBtn, checkCarBtn;
+
+    //method that initializes this activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         checkCarBtn.setOnClickListener(this);
     }
 
+    //button handling
     @Override
     public void onClick(View view){
         int id= view.getId();
@@ -34,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             gotoCheckCarPage();
         }
     }
+
+    //Creating explicit intents
     private void goToAddCarPage(){
         Intent intent=new Intent(this, ActivityAddCar.class);
         startActivity(intent);

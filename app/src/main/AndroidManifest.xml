@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         tools:targetApi="31">
 
-        <!--MainActivity Launcher-->
+        <!--Declaration of the MainActivity.java-->
         <activity
             android:name="com.assesment1.s4669024_s4669021.MainActivity"
             android:exported="true">
@@ -23,10 +23,12 @@
             </intent-filter>
         </activity>
 
+        <!--declaration of the ActivityAddCar.java-->
         <activity android:name="com.assesment1.s4669024_s4669021.ActivityAddCar"
                   android:exported="true">
         </activity>
 
+        <!--declaration of the ActivityCheckCar.java-->
         <activity android:name="com.assesment1.s4669024_s4669021.ActivityCheckCar"
                   android:exported="true">
         </activity>
